@@ -63,7 +63,6 @@ plugins=(
   git
   github
   git-flow
-  zsh-syntax-highlighting
   bundler
   vim
   python
