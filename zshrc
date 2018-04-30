@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/cdatye/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -104,17 +104,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# PATH
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-
-# Editor
-export EDITOR=vim
-alias vi='vim'
-
-#Alias DBC SSH
-alias mydbc="ssh -t cdatye@pa-dbc1101.eng.vmware.com 'cd /dbc/pa-dbc1101/cdatye; bash --login'"
-#alias mydbc='ssh cdatye@pa-dbc1101.eng.vmware.com'
-
-function dbcscp() {
-   scp "$1" cdatye@pa-dbc1101.eng.vmware.com:/dbc/pa-dbc1101/cdatye
-}
