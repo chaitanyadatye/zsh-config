@@ -3,10 +3,11 @@ Installation
 
 To install, run
 
-   git clone git://github.com/chaitanyadatye/zsh-config.git ~/.zsh
-   cd ~/.zsh
-   make install
+	git clone git://github.com/niketkandya/zsh-config.git ~/.zsh
+	cd ~/.zsh
+	make install
 
-To update repository, run
+To update the repository, run
 
-   make update
+	make update
+
