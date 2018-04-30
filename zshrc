@@ -104,5 +104,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias mydbc="ssh -t cdatye@pa-dbc1101.eng.vmware.com 'cd /dbc/pa-dbc1101/cdatye; bash --login'"
-
-source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
