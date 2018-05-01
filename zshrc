@@ -53,7 +53,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=$ZSH/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -103,4 +103,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias mydbc="ssh -t cdatye@pa-dbc1101.eng.vmware.com 'cd /dbc/pa-dbc1101/cdatye; bash --login'"
+source $HOME/.profile
